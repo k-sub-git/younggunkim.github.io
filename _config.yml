@@ -6,7 +6,7 @@ description: >-
 lang: en-US
 timezone:  "Asia/seoul"
 repo: "https://ithub.com" #p0wex/Gesko # site repo [optional]
-data-theme: "dark" 
+data-theme: "white" 
 discus-identifier: G # replace with your disqus shortname
 
 author:
