@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://gcodaily.github.io/sitemap.xml
+Sitemap: https://Gcodaily.github.io/sitemap.xml
