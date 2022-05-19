@@ -2,7 +2,7 @@ site: "Gcodaily"
 title: "Gcodaily"
 greetings: How was your day today?
 description: >-
-  "How was your day today?"
+  "Gcodaily"
 lang: en-US
 timezone:  "Asia/seoul"
 repo: "https://ithub.com" #p0wex/Gesko # site repo [optional]
