@@ -1,17 +1,17 @@
-site: Gcodaily
-title: Gcodaily
+site: "Gcodaily"
+title: "Gcodaily"
 greetings: How was your day today?
 description: >-
-  How was your day today?
+  "How was your day today?"
 lang: en-US
-timezone:  Asia/seoul
-repo: https://github.com #p0wex/Gesko # site repo [optional]
+timezone:  "Asia/seoul"
+repo: "https://github.com" #p0wex/Gesko # site repo [optional]
 data-theme: light # default theme "dark" | "light"
 discus-identifier: G # replace with your disqus shortname
 
 author:
-  name: G
-  bio: How was your day today?
+  name: "G"
+  bio: "How was your day today?"
   userpicture: 
   username: # general username
   github: # github username
