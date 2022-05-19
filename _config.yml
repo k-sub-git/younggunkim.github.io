@@ -2,10 +2,10 @@ site: Gcodaily
 title: Gcodaily
 greetings: How was your day today?
 description: >-
-  just a minimalist, personal blog
+  How was your day today?
 lang: en-US
 timezone:  seoul
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+repo: https://github.com #p0wex/Gesko # site repo [optional]
 data-theme: light # default theme "dark" | "light"
 discus-identifier: powex # replace with your disqus shortname
 
