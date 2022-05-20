@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T08:28:57+00:00</updated>
+ <updated>2022-05-20T08:30:18+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -23,10 +23,10 @@ Gcodaily blog 입니다.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>2</title>
-   <link href="https://Gcodaily.github.io/2022/05/20/2"/>
+   <title></title>
+   <link href="https://Gcodaily.github.io/2022/05/20/"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>https://Gcodaily.github.io/2022/05/20/2</id>
+   <id>https://Gcodaily.github.io/2022/05/</id>
    <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -40,6 +40,7 @@ Gcodaily blog 입니다.&lt;/p&gt;
     &lt;button&gt; 로그인하기 &lt;/button&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
 </content>
  </entry>
  
