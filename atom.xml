@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T11:09:59+00:00</updated>
+ <updated>2022-05-20T11:11:24+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -42,9 +42,9 @@ Gcodaily blog 입니다.&lt;/p&gt;
  
  <entry>
    <title>1-5~6 CSS 기초</title>
-   <link href="https://Gcodaily.github.io/2022/05/20/wccss"/>
+   <link href="https://Gcodaily.github.io/2022/05/20/wccss-01-5-6"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>https://Gcodaily.github.io/2022/05/20/WCCSS</id>
+   <id>https://Gcodaily.github.io/2022/05/20/WCCSS_01_5~6</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- CSS -
  
  css란?

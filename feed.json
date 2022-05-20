@@ -65,12 +65,12 @@
         },
     
         {
-            "id": "https://gcodaily.github.io/2022/05/20/wccss",
+            "id": "https://gcodaily.github.io/2022/05/20/wccss-01-5-6",
             "title": "1-5~6 CSS 기초",
             "summary": null,
             "content_text": "- CSS -  css란?&lt;body&gt;...&lt;/body&gt; 안에있는 것들을 꾸며준다. 사용법&lt;head&gt;...&lt;/head&gt; 안에 &lt;style&gt;...&lt;/stlye&gt;로 공간을 만들어 작성한다.&lt;body&gt;...&lt;/body&gt; 안에서 &lt;div class=\"mytitle\"&gt; 입력하고 가리킬때 .mytitle {...} 라고 입력해야한다.그래서 뼈대를 만들때 div로 잘 묶어줘야 꾸며줄때 편하다. ex) .mytitle {        color: red;        font-size: 40px;    }    .    .    &lt;body&gt;    &lt;h1&gt; class=\"mytitle\"&gt;로그인페이지&lt;/h1&gt;    .    .    이렇게 하면 화면에서 로그인페이지라는 문구가 색은 빨간색으로 폰트는 40px사이즈로 바뀐다.    - words -         text-align: center;          text 중앙정렬        밑에 3개는 거의 붙어 다딘다.    background-image: url(...)   background에 이미지 넣기    background-size: cover;      이미지사이즈 백그라운드에 맞춤    background-position: center; 이미지 중앙부분으로       border-radius: 10px;         모서리          padding-top: 20px;           안쪽으로 여백    margin: 20px 0px 0px 100px;  바깥으로 위20 오른0 아래0 왼쪽30; (순서 위부터 시계방향!)        display: block;              margin을 오토로 했는데도 버튼이 움직이지 않을때!!* 클래스 중첩이란    &lt;button class=\"mybtn red-font\"&gt; 로그인하기&lt;/button&gt;    기존 mybtn 한칸띄우고 red-font 입력해주면 .red-font를 가르켜 꾸며줄수있다. 참고하자. - Finish -     줄정리!!    여러가지 기호이 쓰이는 규칙을 이해하지말고 그냥 맥락과 사용법을 익혀야한다.    display: block; 활용    class 중첩 활용",
             "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- CSS -  css란?&lt;body&gt;...&lt;/body&gt; 안에있는 것들을 꾸며준다. 사용법&lt;head&gt;...&lt;/head&gt; 안에 &lt;style&gt;...&lt;/stlye&gt;로 공간을 만들어 작성한다.&lt;body&gt;...&lt;/body&gt; 안에서 &lt;div class=\"mytitle\"&gt; 입력하고 가리킬때 .mytitle {...} 라고 입력해야한다.그래서 뼈대를 만들때 div로 잘 묶어줘야 꾸며줄때 편하다. ex) .mytitle {        color: red;        font-size: 40px;    }    .    .    &lt;body&gt;    &lt;h1&gt; class=\"mytitle\"&gt;로그인페이지&lt;/h1&gt;    .    .    이렇게 하면 화면에서 로그인페이지라는 문구가 색은 빨간색으로 폰트는 40px사이즈로 바뀐다.    - words -         text-align: center;          text 중앙정렬        밑에 3개는 거의 붙어 다딘다.    background-image: url(...)   background에 이미지 넣기    background-size: cover;      이미지사이즈 백그라운드에 맞춤    background-position: center; 이미지 중앙부분으로       border-radius: 10px;         모서리          padding-top: 20px;           안쪽으로 여백    margin: 20px 0px 0px 100px;  바깥으로 위20 오른0 아래0 왼쪽30; (순서 위부터 시계방향!)        display: block;              margin을 오토로 했는데도 버튼이 움직이지 않을때!!* 클래스 중첩이란    &lt;button class=\"mybtn red-font\"&gt; 로그인하기&lt;/button&gt;    기존 mybtn 한칸띄우고 red-font 입력해주면 .red-font를 가르켜 꾸며줄수있다. 참고하자. - Finish -     줄정리!!    여러가지 기호이 쓰이는 규칙을 이해하지말고 그냥 맥락과 사용법을 익혀야한다.    display: block; 활용    class 중첩 활용</code></pre></div></div>",
-            "url": "https://gcodaily.github.io/2022/05/20/wccss",
+            "url": "https://gcodaily.github.io/2022/05/20/wccss-01-5-6",
             
             
             
