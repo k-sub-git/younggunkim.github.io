@@ -16,6 +16,15 @@
       "tags"     : "practice, login",
       "url"      : "/2022/05/20/wcpractice-01",
       "date"     : "2022-05-20 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "1-5~6 CSS 기초",
+      "description" : "",
+      "category" : "",
+      "tags"     : "CSS, CSS기초, bottoncenter, class, margin, padding, background",
+      "url"      : "/2022/05/20/wccss",
+      "date"     : "2022-05-20 00:00:00 +0000"
     } 
   
 ]
