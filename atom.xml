@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T08:28:28+00:00</updated>
+ <updated>2022-05-20T08:28:57+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -19,6 +19,27 @@
    <id>https://Gcodaily.github.io/2022/05/20/first</id>
    <content type="html">&lt;p&gt;안녕하세요.
 Gcodaily blog 입니다.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2</title>
+   <link href="https://Gcodaily.github.io/2022/05/20/2"/>
+   <updated>2022-05-20T00:00:00+00:00</updated>
+   <id>https://Gcodaily.github.io/2022/05/20/2</id>
+   <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;title&gt;로그인 페이지&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;로그인 페이지&lt;/h1&gt;
+    &lt;p&gt;ID: &lt;input type=&quot;text&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;PASS: &lt;input type=&quot;text&quot; /&gt;&lt;/p&gt;
+    &lt;button&gt; 로그인하기 &lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </content>
  </entry>
  
