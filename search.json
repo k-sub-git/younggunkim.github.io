@@ -136,10 +136,10 @@
     } ,
   
     {
-      "title"    : "Redirect Jekyll URLs",
-      "description" : "How to Redirect Pages in Jekyll",
+      "title"    : "1Redirect Jekyll URLs",
+      "description" : "2How to Redirect Pages in Jekyll",
       "category" : "",
-      "tags"     : "coding, jekyll",
+      "tags"     : "4coding, jekyll",
       "url"      : "/2017/11/10/redirect-jekyll-urls",
       "date"     : "2017-11-10 00:00:00 +0000"
     } ,

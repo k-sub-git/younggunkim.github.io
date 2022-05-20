@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-19T23:05:06+00:00</updated>
+ <updated>2022-05-20T04:32:00+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -302,7 +302,7 @@
  </entry>
  
  <entry>
-   <title>Redirect Jekyll URLs</title>
+   <title>1Redirect Jekyll URLs</title>
    <link href="https://Gcodaily.github.io/2017/11/10/redirect-jekyll-urls"/>
    <updated>2017-11-10T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2017/11/10/redirect-jekyll-urls</id>
