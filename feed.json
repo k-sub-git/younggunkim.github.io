@@ -44,13 +44,13 @@
             "id": "https://gcodaily.github.io/2022/05/20/wcpractice-01",
             "title": "practice_01_login",
             "summary": null,
-            "content_text": "{&lt;!DOCTYPE html&gt;        로그인 페이지    로그인 페이지    ID:     PASS:      로그인하기 }",
-            "content_html": "<p>{&lt;!DOCTYPE html&gt;</p><html lang=\"en\"><head>    <meta charset=\"UTF-8\" />    <title>로그인 페이지</title></head><body>    <h1>로그인 페이지</h1>    <p>ID: <input type=\"text\" /></p>    <p>PASS: <input type=\"text\" /></p>    <button> 로그인하기 </button></body></html><p>}</p>",
+            "content_text": " 바디&lt;h1&gt;로그인 페이지&lt;/h1&gt;&lt;P&gt;ID: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;P&gt;PASS: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;button&gt; 로그인하기 &lt;/button&gt;        로그인 페이지    로그인 페이지    ID:     PASS:      로그인하기 ",
+            "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code> 바디&lt;h1&gt;로그인 페이지&lt;/h1&gt;&lt;P&gt;ID: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;P&gt;PASS: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;button&gt; 로그인하기 &lt;/button&gt;</code></pre></div></div><html lang=\"en\"><head>    <meta charset=\"UTF-8\" />    <title>로그인 페이지</title></head><body>    <h1>로그인 페이지</h1>    <p>ID: <input type=\"text\" /></p>    <p>PASS: <input type=\"text\" /></p>    <button> 로그인하기 </button></body></html>",
             "url": "https://gcodaily.github.io/2022/05/20/wcpractice-01",
             
             
             
-            "tags": ["practice,","login"],
+            "tags": ["practice","login"],
             
             "date_published": "2022-05-20T00:00:00+00:00",
             "date_modified": "2022-05-20T00:00:00+00:00",
