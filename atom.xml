@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T09:27:34+00:00</updated>
+ <updated>2022-05-20T09:40:07+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -34,6 +34,8 @@ Gcodaily blog 입니다.&lt;/p&gt;
 
  &amp;lt;P&amp;gt; 줄바꿈
  Tap 키를 이용하여 정리하면서 코드를 입력하자.
+ 
+ 혼자서할때 PASS: &amp;lt;input type=&quot;text&quot;/&amp;gt; 에만 &amp;lt;p&amp;gt;를 입력해도 결과물은 같지만 정답은 위에도 똑같이 입렵해줘야한다.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </content>
  </entry>
