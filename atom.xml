@@ -4,13 +4,30 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T05:02:00+00:00</updated>
+ <updated>2022-05-20T05:04:58+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
    <email>your-email@email.com</email>
  </author>
 
+ 
+ <entry>
+   <title>First</title>
+   <link href="https://Gcodaily.github.io/2022/05/20/first"/>
+   <updated>2022-05-20T00:00:00+00:00</updated>
+   <id>https://Gcodaily.github.io/2022/05/20/first</id>
+   <content type="html">
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: 안녕하세요.
+tags: frist
+—&lt;/p&gt;
+
+&lt;p&gt;안녕하세요.
+Gcodaily blog 입니다.&lt;/p&gt;
+</content>
+ </entry>
  
 
 </feed>
