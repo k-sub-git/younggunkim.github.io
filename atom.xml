@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-20T08:30:18+00:00</updated>
+ <updated>2022-05-20T08:34:00+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -23,10 +23,10 @@ Gcodaily blog 입니다.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title></title>
-   <link href="https://Gcodaily.github.io/2022/05/20/"/>
+   <title>practice_01_login</title>
+   <link href="https://Gcodaily.github.io/2022/05/20/wcpractice-01"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>https://Gcodaily.github.io/2022/05/</id>
+   <id>https://Gcodaily.github.io/2022/05/20/WCpractice_01</id>
    <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
