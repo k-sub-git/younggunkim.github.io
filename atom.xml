@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-21T15:42:29+00:00</updated>
+ <updated>2022-05-21T15:45:47+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -13,17 +13,11 @@
 
  
  <entry>
-   <title>Sqr_01</title>
+   <title>01_SQR</title>
    <link href="https://Gcodaily.github.io/2022/05/21/sqr-01"/>
    <updated>2022-05-21T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2022/05/21/SQR_01</id>
-   <content type="html">&lt;p&gt;-
-layout: post
-title: 01_SQR 
-tags: 01_SQR SQL
-—&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 데이터베이스(DB)란 
+   <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 데이터베이스(DB)란 
 여러사람이 같이 사용할 목적으로 데이터를 담는 저장소
 https://terms.naver.com/entry.naver?docId=1082446&amp;amp;cid=40942&amp;amp;categoryId=32840
 
