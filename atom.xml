@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-22T05:59:51+00:00</updated>
+ <updated>2022-05-22T06:04:12+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -231,7 +231,7 @@ ex) .mytitle {
     div 열고닫고 줄정리 바로한다
     display: block; 활용
     class 중첩 
-    Javascript console에서 반복문 오타 주의
+    Javascript 반복문 오타 주의
     
 코드를 입력하면 직관적으로 결과물을 볼수있다는점 매력있고
 지금은 주어진 웹사이트를 보고 코드를 입력하며 같은 결과물을 만들어내지만 
