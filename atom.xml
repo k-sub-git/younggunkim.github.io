@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-21T15:47:16+00:00</updated>
+ <updated>2022-05-22T04:54:26+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -143,10 +143,10 @@ Gcodaily blog 입니다.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>01_WC_CSS 5~6</title>
-   <link href="https://Gcodaily.github.io/2022/05/20/wccss-01-5-6"/>
+   <title>01_WC_CSS</title>
+   <link href="https://Gcodaily.github.io/2022/05/20/wccss-01"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>https://Gcodaily.github.io/2022/05/20/WCCSS_01_5~6</id>
+   <id>https://Gcodaily.github.io/2022/05/20/WCCSS_01</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- CSS -
  
  css란?
@@ -186,6 +186,14 @@ ex) .mytitle {
     margin: 20px 0px 0px 100px;  바깥으로 위20 오른0 아래0 왼쪽30; (순서 위부터 시계방향!)
     
     display: block;              margin을 오토로 했는데도 버튼이 움직이지 않을때!!
+    
+  font
+    https://fonts.google.com/?subset=korean 
+    구글폰트들이 있고 복사해서 사용
+    
+  bootstrap
+    https://getbootstrap.com/docs/4.0/components/alerts/
+    form, buttons.. 여러가지 만들어 놓은 코드들이 있다 복사해서 사용해보자
 
 * 클래스 중첩이란
     &amp;lt;button class=&quot;mybtn red-font&quot;&amp;gt; 로그인하기&amp;lt;/button&amp;gt;
@@ -193,6 +201,7 @@ ex) .mytitle {
  
 - Finish - 
     div 열고닫고 줄정리 바로바로 하면서하기
+    
     display: block; 활용
     class 중첩 활용
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
