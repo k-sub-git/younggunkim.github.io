@@ -4,7 +4,7 @@
  <title>Gcodaily</title>
  <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
  <link href="https://Gcodaily.github.io/"/>
- <updated>2022-05-25T08:12:03+00:00</updated>
+ <updated>2022-05-25T08:18:39+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -39,6 +39,10 @@
 
 문제는 href=&quot;.&quot; 이다. 혼자 만들고 수정하다가 빈공간이라서 &apos;.&apos;으로 표시했는데 원래는&apos;#&apos;이다 
 아직 기초라서 정확한 이유 모르겠다
+  
+- JQuery - 
+ 미리 작성된 javascript 코드를 가져오는 것을 &apos;임포트&apos;라고 부르며 부트스트랩 템플릿으로 시작하지 않은 경우에
+ https://www.w3schools.com/jquery/jquery_get_started.asp 에서 jQuery CDN부분을 임포트해서 head 사이에 입력하고 임포트해서 사용하자
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </content>
