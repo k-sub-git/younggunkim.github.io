@@ -49,10 +49,10 @@ layout: compress
     function modeSwitcher() {
       let currentMode = document.documentElement.getAttribute('data-theme');
 
-      if (currentMode === "dark") {
-        setTheme('light');
-      } else {
+      if (currentMode === "light") {
         setTheme('dark');
+      } else {
+        setTheme('light');
       }
     }
   </script>
