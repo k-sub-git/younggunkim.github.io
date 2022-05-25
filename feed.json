@@ -65,30 +65,6 @@
         },
     
         {
-            "id": "https://gcodaily.github.io/2022/05/20/wcpractice-01",
-            "title": "practice_01_login",
-            "summary": null,
-            "content_text": "&lt;h1&gt;로그인 페이지&lt;/h1&gt;&lt;P&gt;ID: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;P&gt;PASS: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;button&gt; 로그인하기 &lt;/button&gt; &lt;P&gt; 줄바꿈 Tap 키를 이용하여 정리하면서 코드를 입력하자.  혼자서할때 PASS: &lt;input type=\"text\"/&gt; 에만 &lt;p&gt;를 입력해도 결과물은 같지만 정답은 위에도 똑같이 입렵해줘야한다.",
-            "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;h1&gt;로그인 페이지&lt;/h1&gt;&lt;P&gt;ID: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;P&gt;PASS: &lt;input type=\"text\"/&gt;&lt;/P&gt;&lt;button&gt; 로그인하기 &lt;/button&gt; &lt;P&gt; 줄바꿈 Tap 키를 이용하여 정리하면서 코드를 입력하자.  혼자서할때 PASS: &lt;input type=\"text\"/&gt; 에만 &lt;p&gt;를 입력해도 결과물은 같지만 정답은 위에도 똑같이 입렵해줘야한다.</code></pre></div></div>",
-            "url": "https://gcodaily.github.io/2022/05/20/wcpractice-01",
-            
-            
-            
-            "tags": ["practice","login"],
-            
-            "date_published": "2022-05-20T00:00:00+00:00",
-            "date_modified": "2022-05-20T00:00:00+00:00",
-            
-                "author":  {
-                "name": "G",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
             "id": "https://gcodaily.github.io/2022/05/20/01-wc",
             "title": "01_WC",
             "summary": null,
