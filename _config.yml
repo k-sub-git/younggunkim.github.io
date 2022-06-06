@@ -5,7 +5,7 @@ description: >-
  "How was your day today?"
 lang: en-US
 timezone:  'Asia/seoul'
-repo: "https://github.com" #p0wex/Gesko # site repo [optional]
+repo: "https://github.com/Gcodaily" #p0wex/Gesko # site repo [optional]
 data-theme: "light" 
 discus-identifier: 'G' # replace with your disqus shortname
 
@@ -14,9 +14,9 @@ author:
   bio: "How was your day today?"
   userpicture: 
   username: # general username
-  github: https://github.com/Gcodaily
+  github: "https://github.com/Gcodaily"
   twitter: # twitter username
-  email: ygunoffice@gmail.com # email adress
+  email: "ygunoffice@gmail.com" # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
@@ -26,8 +26,8 @@ url: "https://Gcodaily.github.io"
 baseurl: # "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
-# local
-# url: "http://localhost:4000" # 
+local
+url: "https://github.com/Gcodaily"
 # baseurl: "" # 
 
 
