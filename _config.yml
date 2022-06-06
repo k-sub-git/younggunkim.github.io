@@ -1,13 +1,13 @@
-site: "Gcodaily"
-title: "Gcodaily"
-greetings: "Gcodaily"
+site: Gcodaily
+title: Gcodaily
+greetings: Gcodaily
 description: >-
  "How was your day today?"
 lang: en-US
-timezone:  'Asia/seoul'
-repo: "Gcodaily/Gcodaily.github.io" #p0wex/Gesko # site repo [optional]
+timezone:  Asia/seoul
+repo: https://github.com/Gcodaily/Gcodaily.github.io #p0wex/Gesko # site repo [optional]
 data-theme: "light" 
-discus-identifier: 'G' # replace with your disqus shortname
+discus-identifier: G # replace with your disqus shortname
 
 author:
   name: "G"
@@ -23,13 +23,8 @@ googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;
 
 # URL settings
 url: "https://Gcodaily.github.io"
-baseurl: # "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+baseurl: "/Gcodaily.github.io" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
-
-local
-url: "https://github.com/Gcodaily"
-# baseurl: "" # 
-
 
 markdown: kramdown
 kramdown:
