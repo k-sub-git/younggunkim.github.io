@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Gcodaily</title>
- <link href="https://Gcodaily.github.io/atom.xml" rel="self"/>
- <link href="https://Gcodaily.github.io/"/>
- <updated>2022-06-06T05:52:01+00:00</updated>
+ <link href="https://Gcodaily.github.io/Gcodaily.github.io/atom.xml" rel="self"/>
+ <link href="https://Gcodaily.github.io/Gcodaily.github.io/"/>
+ <updated>2022-06-06T06:11:35+00:00</updated>
  <id>https://Gcodaily.github.io</id>
  <author>
    <name>G</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>02_Daliy_javascript</title>
-   <link href="https://Gcodaily.github.io/2022/05/23/02-daily-01"/>
+   <link href="https://Gcodaily.github.io/Gcodaily.github.io/2022/05/23/02-daily-01"/>
    <updated>2022-05-23T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2022/05/23/02_Daily_01</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script&amp;gt;
@@ -56,7 +56,7 @@ S.fn.init [input#article-url.form-control]
  
  <entry>
    <title>01_SQR</title>
-   <link href="https://Gcodaily.github.io/2022/05/21/sqr-01"/>
+   <link href="https://Gcodaily.github.io/Gcodaily.github.io/2022/05/21/sqr-01"/>
    <updated>2022-05-21T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2022/05/21/SQR_01</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 데이터베이스(DB)란 
@@ -158,7 +158,7 @@ and payment_method = &apos;kakaopay&apos;
  
  <entry>
    <title>안녕하세요.</title>
-   <link href="https://Gcodaily.github.io/2022/05/20/first"/>
+   <link href="https://Gcodaily.github.io/Gcodaily.github.io/2022/05/20/first"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2022/05/20/first</id>
    <content type="html">&lt;p&gt;안녕하세요.
@@ -168,7 +168,7 @@ Gcodaily blog 입니다.&lt;/p&gt;
  
  <entry>
    <title>01_WC</title>
-   <link href="https://Gcodaily.github.io/2022/05/20/01-wc"/>
+   <link href="https://Gcodaily.github.io/Gcodaily.github.io/2022/05/20/01-wc"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
    <id>https://Gcodaily.github.io/2022/05/20/01_WC</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- CSS -
