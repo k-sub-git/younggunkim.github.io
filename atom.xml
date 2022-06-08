@@ -2,21 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>gcodaily</title>
- <link href="hhttps://gcodaily.github.io//gcodaily/atom.xml" rel="self"/>
- <link href="hhttps://gcodaily.github.io//gcodaily/"/>
- <updated>2022-06-08T03:37:11+00:00</updated>
- <id>hhttps://gcodaily.github.io/</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2022-06-08T04:25:30+00:00</updated>
+ <id></id>
  <author>
-   <name>gesko</name>
-   <email>ygunoffice@gmail.com</email>
+   <name></name>
+   <email></email>
  </author>
 
  
  <entry>
    <title>02_Daliy_javascript</title>
-   <link href="hhttps://gcodaily.github.io//gcodaily/2022/05/23/02-daily-01"/>
+   <link href="/2022/05/23/02_Daily_01.html"/>
    <updated>2022-05-23T00:00:00+00:00</updated>
-   <id>hhttps://gcodaily.github.io//2022/05/23/02_Daily_01</id>
+   <id>/2022/05/23/02_Daily_01</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script&amp;gt;
     let count = 1;
 
@@ -56,9 +56,9 @@ S.fn.init [input#article-url.form-control]
  
  <entry>
    <title>01_SQR</title>
-   <link href="hhttps://gcodaily.github.io//gcodaily/2022/05/21/sqr-01"/>
+   <link href="/2022/05/21/SQR_01.html"/>
    <updated>2022-05-21T00:00:00+00:00</updated>
-   <id>hhttps://gcodaily.github.io//2022/05/21/SQR_01</id>
+   <id>/2022/05/21/SQR_01</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 데이터베이스(DB)란 
 여러사람이 같이 사용할 목적으로 데이터를 담는 저장소
 https://terms.naver.com/entry.naver?docId=1082446&amp;amp;cid=40942&amp;amp;categoryId=32840
@@ -158,9 +158,9 @@ and payment_method = &apos;kakaopay&apos;
  
  <entry>
    <title>안녕하세요.</title>
-   <link href="hhttps://gcodaily.github.io//gcodaily/2022/05/20/first"/>
+   <link href="/2022/05/20/first.html"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>hhttps://gcodaily.github.io//2022/05/20/first</id>
+   <id>/2022/05/20/first</id>
    <content type="html">&lt;p&gt;안녕하세요.
 Gcodaily blog 입니다.&lt;/p&gt;
 </content>
@@ -168,9 +168,9 @@ Gcodaily blog 입니다.&lt;/p&gt;
  
  <entry>
    <title>01_WC</title>
-   <link href="hhttps://gcodaily.github.io//gcodaily/2022/05/20/01-wc"/>
+   <link href="/2022/05/20/01_WC.html"/>
    <updated>2022-05-20T00:00:00+00:00</updated>
-   <id>hhttps://gcodaily.github.io//2022/05/20/01_WC</id>
+   <id>/2022/05/20/01_WC</id>
    <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- CSS -
  
  css란?

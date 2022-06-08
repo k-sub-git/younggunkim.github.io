@@ -1,28 +1,22 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "gcodaily",
-    "home_page_url": "hhttps://gcodaily.github.io//gcodaily/",
-    "feed_url": "hhttps://gcodaily.github.io//gcodaily/feed.json",
-    "description": "just a minimalist, personal blog",
-    "icon": "hhttps://gcodaily.github.io//gcodaily/apple-touch-icon.png",
-    "favicon": "hhttps://gcodaily.github.io//gcodaily/favicon.ico",
+    "home_page_url": "/",
+    "feed_url": "/feed.json",
+    "description": "just a personal blog",
+    "icon": "/apple-touch-icon.png",
+    "favicon": "/favicon.ico",
     "expired": false,
-    
-    "author":  {
-        "name": "gesko",
-        "url": null,
-        "avatar": null
-    },
     
 "items": [
     
         {
-            "id": "hhttps://gcodaily.github.io//gcodaily/2022/05/23/02-daily-01",
+            "id": "/2022/05/23/02_Daily_01.html",
             "title": "02_Daliy_javascript",
             "summary": null,
             "content_text": "&lt;script&gt;    let count = 1;    function hey() {        if (count % 2 == 0) {            alert('짝수입니다!');        } else {            alert('홀수입니다!');        }        count += 1;    }&lt;/script&gt;... &lt;a onclick=\"hey()\" class=\"btn btn-primary btn-lg\" href=\".\" role=\"button\"&gt;포스팅박스 열기&lt;/a&gt;2-2 javascript를 복습하던중 웹페이지에서 링크버튼을 누를때마다 \"홀수입니다!\" \"짝수입니다!\" 번갈아 나와야하는데 계속 홀수입니다 라고만 나왔다.문제는 href=\".\" 이다. 혼자 만들고 수정하다가 빈공간이라서 '.'으로 표시했는데 원래는'#'이다 아직 기초라서 정확한 이유 모르겠다  - JQuery -  미리 작성된 javascript 코드를 가져오는 것을 '임포트'라고 부르며 부트스트랩 템플릿으로 시작하지 않은 경우에 https://www.w3schools.com/jquery/jquery_get_started.asp 에서 jQuery CDN부분을 임포트하자!  $('#article-url').val();'세종대왕'$('#article-url').val('장영실');S.fn.init [input#article-url.form-control]",
             "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>&lt;script&gt;    let count = 1;    function hey() {        if (count % 2 == 0) {            alert('짝수입니다!');        } else {            alert('홀수입니다!');        }        count += 1;    }&lt;/script&gt;... &lt;a onclick=\"hey()\" class=\"btn btn-primary btn-lg\" href=\".\" role=\"button\"&gt;포스팅박스 열기&lt;/a&gt;2-2 javascript를 복습하던중 웹페이지에서 링크버튼을 누를때마다 \"홀수입니다!\" \"짝수입니다!\" 번갈아 나와야하는데 계속 홀수입니다 라고만 나왔다.문제는 href=\".\" 이다. 혼자 만들고 수정하다가 빈공간이라서 '.'으로 표시했는데 원래는'#'이다 아직 기초라서 정확한 이유 모르겠다  - JQuery -  미리 작성된 javascript 코드를 가져오는 것을 '임포트'라고 부르며 부트스트랩 템플릿으로 시작하지 않은 경우에 https://www.w3schools.com/jquery/jquery_get_started.asp 에서 jQuery CDN부분을 임포트하자!  $('#article-url').val();'세종대왕'$('#article-url').val('장영실');S.fn.init [input#article-url.form-control]</code></pre></div></div>",
-            "url": "hhttps://gcodaily.github.io//gcodaily/2022/05/23/02-daily-01",
+            "url": "/2022/05/23/02_Daily_01.html",
             
             
             
@@ -31,22 +25,19 @@
             "date_published": "2022-05-23T00:00:00+00:00",
             "date_modified": "2022-05-23T00:00:00+00:00",
             
-                "author":  {
-                "name": "gesko",
-                "url": null,
-                "avatar": null
-                }
+                "author": 
+                ""
                 
             
         },
     
         {
-            "id": "hhttps://gcodaily.github.io//gcodaily/2022/05/21/sqr-01",
+            "id": "/2022/05/21/SQR_01.html",
             "title": "01_SQR",
             "summary": null,
             "content_text": "- 데이터베이스(DB)란 여러사람이 같이 사용할 목적으로 데이터를 담는 저장소https://terms.naver.com/entry.naver?docId=1082446&amp;cid=40942&amp;categoryId=32840-SQL? (Structured Query Language)데이터베이스에 요청(Query)을 해서 데이터를 가져오는 것을 도와주는 언어- SQL이 필요한 이유데이터를 읽어오는 과정 CRUD 중에 R(read)을 편하게 만들어준다데이터를 정리/분석하는 기능도 지원- 데이터를 가져오는 명령어 select * from 필드(orders, user_id, email ...) &lt;- 'SQL 쿼리를 작성한다' 라고 말한다   - show tables 테이블들을 보여준다 실행은 \"control+enter\"selec * from orders; orders 테이블의 데이터 가져오기selec created_at, course_title, payment_method, email from orders; 테이블의 특정 필드만 가져와보기-where절 select 쿼리문으로 가져올 데이터에 조건을 걸어준다ex) select * from orders    where payment_method = \"kakaopay\"; 필드를 쓸때 문자열로 인식시키는 \"\" 이것을 꼭 쓰자!! 숫자는 안해도 괜찮다.    그냥 kakaopay 라고 입력할경우 kakaopay라는 컬럼(필드)은 없다 그냥 kakaopay를 필드명으로만 인식.   - 여러 조건 걸어주기 and를 이용하자select * from orderswhere course_title = \"앱개발 종합반\" and payment_method = \"kakaopay\"; and를 넣어서 계속 추가가능!- practice 포인트가 20000점 보다 많은 유저만 뽑아보기select * from poin_ userswhere point &gt; 20000;성이 황씨인 유저만 뽑아보기select * from userswhere name = \"황**\"!= 특정 데이터를 빼고 보고싶을때 !느낌표는 not을 의미한다select * from userswhere name != \"황**\"   between 범위 조건7월 13일, 7월 14일의 주문데터만 보고싶다면?select * from orderswhere created_at between \"2020-07-13\" and \"2020-07-15\"in 포함 조건1,3 주차 사람들의 오늘의 다짐의 데이터select * from checkinswhere week in (1, 3);like 패턴 조건daum 이메일 사용하는 유저만 실제 @포함 주소가 길다 select * from userswhere email like '%daum.net';%를 이용해서 써보기where email like 'a%' email a로 시작하는 모든 데이터where email like '%a' email a로 끝나는 모든 데이터where email like '%co%' email co를 포함하는 모든 데이터where email like 'a%o' email a로 시작하고 o로 끝나는 모든 데이터다른 문법들은 how to use like in sql 구글링으로 찾아서 써보자limit 일부데이터만 가져오기 (많은데이터를 불러오기가 힘들때 쓴다)select * from orderswhere payment_method = 'kakaopay'limit 5;distinct 중복 데이터 제외하고 가져오기select distinct(payment_method) from orders;count 데이터 수 알아보기select count(*) from ordersdistinct count 응용순서대로 데이터를 보면서 하기.select distinct(name) from users;SELECT count(distinct(name)) from users;-01_SQL homework네이버 이메일을 사용하면서, 웹개발 종합반을 신청했고 결제는 kakaopay로 이뤄진 주문데이터 추출하기select * from orderswhere email like '%naver.com'and course_title = '웹개발 종합반'and payment_method = 'kakaopay'- finish 자주하는 실수 문자열 인식이해 ''를 써줘서 문자열(값)으로 인식 - DBeaver 다운로드 https://dbeaver.io/download/",
             "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- 데이터베이스(DB)란 여러사람이 같이 사용할 목적으로 데이터를 담는 저장소https://terms.naver.com/entry.naver?docId=1082446&amp;cid=40942&amp;categoryId=32840-SQL? (Structured Query Language)데이터베이스에 요청(Query)을 해서 데이터를 가져오는 것을 도와주는 언어- SQL이 필요한 이유데이터를 읽어오는 과정 CRUD 중에 R(read)을 편하게 만들어준다데이터를 정리/분석하는 기능도 지원- 데이터를 가져오는 명령어 select * from 필드(orders, user_id, email ...) &lt;- 'SQL 쿼리를 작성한다' 라고 말한다   - show tables 테이블들을 보여준다 실행은 \"control+enter\"selec * from orders; orders 테이블의 데이터 가져오기selec created_at, course_title, payment_method, email from orders; 테이블의 특정 필드만 가져와보기-where절 select 쿼리문으로 가져올 데이터에 조건을 걸어준다ex) select * from orders    where payment_method = \"kakaopay\"; 필드를 쓸때 문자열로 인식시키는 \"\" 이것을 꼭 쓰자!! 숫자는 안해도 괜찮다.    그냥 kakaopay 라고 입력할경우 kakaopay라는 컬럼(필드)은 없다 그냥 kakaopay를 필드명으로만 인식.   - 여러 조건 걸어주기 and를 이용하자select * from orderswhere course_title = \"앱개발 종합반\" and payment_method = \"kakaopay\"; and를 넣어서 계속 추가가능!- practice 포인트가 20000점 보다 많은 유저만 뽑아보기select * from poin_ userswhere point &gt; 20000;성이 황씨인 유저만 뽑아보기select * from userswhere name = \"황**\"!= 특정 데이터를 빼고 보고싶을때 !느낌표는 not을 의미한다select * from userswhere name != \"황**\"   between 범위 조건7월 13일, 7월 14일의 주문데터만 보고싶다면?select * from orderswhere created_at between \"2020-07-13\" and \"2020-07-15\"in 포함 조건1,3 주차 사람들의 오늘의 다짐의 데이터select * from checkinswhere week in (1, 3);like 패턴 조건daum 이메일 사용하는 유저만 실제 @포함 주소가 길다 select * from userswhere email like '%daum.net';%를 이용해서 써보기where email like 'a%' email a로 시작하는 모든 데이터where email like '%a' email a로 끝나는 모든 데이터where email like '%co%' email co를 포함하는 모든 데이터where email like 'a%o' email a로 시작하고 o로 끝나는 모든 데이터다른 문법들은 how to use like in sql 구글링으로 찾아서 써보자limit 일부데이터만 가져오기 (많은데이터를 불러오기가 힘들때 쓴다)select * from orderswhere payment_method = 'kakaopay'limit 5;distinct 중복 데이터 제외하고 가져오기select distinct(payment_method) from orders;count 데이터 수 알아보기select count(*) from ordersdistinct count 응용순서대로 데이터를 보면서 하기.select distinct(name) from users;SELECT count(distinct(name)) from users;-01_SQL homework네이버 이메일을 사용하면서, 웹개발 종합반을 신청했고 결제는 kakaopay로 이뤄진 주문데이터 추출하기select * from orderswhere email like '%naver.com'and course_title = '웹개발 종합반'and payment_method = 'kakaopay'- finish 자주하는 실수 문자열 인식이해 ''를 써줘서 문자열(값)으로 인식 - DBeaver 다운로드 https://dbeaver.io/download/</code></pre></div></div>",
-            "url": "hhttps://gcodaily.github.io//gcodaily/2022/05/21/sqr-01",
+            "url": "/2022/05/21/SQR_01.html",
             
             
             
@@ -55,22 +46,19 @@
             "date_published": "2022-05-21T00:00:00+00:00",
             "date_modified": "2022-05-21T00:00:00+00:00",
             
-                "author":  {
-                "name": "gesko",
-                "url": null,
-                "avatar": null
-                }
+                "author": 
+                ""
                 
             
         },
     
         {
-            "id": "hhttps://gcodaily.github.io//gcodaily/2022/05/20/first",
+            "id": "/2022/05/20/first.html",
             "title": "안녕하세요.",
             "summary": null,
             "content_text": "안녕하세요.Gcodaily blog 입니다.",
             "content_html": "<p>안녕하세요.Gcodaily blog 입니다.</p>",
-            "url": "hhttps://gcodaily.github.io//gcodaily/2022/05/20/first",
+            "url": "/2022/05/20/first.html",
             
             
             
@@ -79,22 +67,19 @@
             "date_published": "2022-05-20T00:00:00+00:00",
             "date_modified": "2022-05-20T00:00:00+00:00",
             
-                "author":  {
-                "name": "gesko",
-                "url": null,
-                "avatar": null
-                }
+                "author": 
+                ""
                 
             
         },
     
         {
-            "id": "hhttps://gcodaily.github.io//gcodaily/2022/05/20/01-wc",
+            "id": "/2022/05/20/01_WC.html",
             "title": "01_WC",
             "summary": null,
             "content_text": "- CSS -  css란?&lt;body&gt;...&lt;/body&gt; 안에있는 것들을 꾸며준다 사용법&lt;head&gt;...&lt;/head&gt; 안에 &lt;style&gt;...&lt;/stlye&gt;로 공간을 만들어 작성한다&lt;body&gt;...&lt;/body&gt; 안에서 &lt;div class=\"mytitle\"&gt; 입력하고 가리킬때 .mytitle {...} 라고 입력해야한다그래서 뼈대를 만들때 div로 잘 묶어줘야 꾸며줄때 편하다ex) .mytitle {        color: red;        font-size: 40px;    }    .    .    &lt;body&gt;    &lt;h1&gt; class=\"mytitle\"&gt;로그인페이지&lt;/h1&gt;    .    .    이렇게 하면 화면에서 로그인페이지라는 문구가 색은 빨간색으로 폰트는 40px사이즈로 바뀐다    - words -         text-align: center;          text 중앙정렬        밑에 3개는 거의 붙어 다딘다.    background-image: url(...)   background에 이미지 넣기    background-size: cover;      이미지사이즈 백그라운드에 맞춤    background-position: center; 이미지 중앙부분으로       border-radius: 10px;         모서리          padding-top: 20px;           안쪽으로 여백    margin: 20px 0px 0px 100px;  바깥으로 위20 오른0 아래0 왼쪽30; (순서 위부터 시계방향!)        display: block;              margin을 오토로 했는데도 버튼이 움직이지 않을때!      font    https://fonts.google.com/?subset=korean     구글폰트들이 있고 복사해서 사용      bootstrap    https://getbootstrap.com/docs/4.0/components/alerts/    form, buttons.. 여러가지 만들어 놓은 코드들이 있다 복사해서 사용해보자* 클래스 중첩이란    &lt;button class=\"mybtn red-font\"&gt; 로그인하기&lt;/button&gt;    기존 mybtn 한칸띄우고 red-font 입력해주면 .red-font를 가르켜 꾸며줄수있다 참고하자!            - Javascript - Javascript란?     프래그래밍 언어 중 하나로, 브라우저가 알아들을 수 있는 언어     클라이언트가 서버에 요청하면, 서버가 클라이언트에게 HTML+CSS+Javascript를 준다     이미 만들어진 표준이기 때문에, 모든 브라우저는 기본적으로 Javascript를 알아듣게 설계되어있고, 모든 웹서버는 HTML+CSS+Javascript를 준다    사용하기     &lt;script&gt;...&lt;/script&gt; 안에 입력한다.    ex)     &lt;script&gt;            function hey() {               alert(\"안녕!!\")           }     &lt;/script&gt;     .     .     &lt;a onclick=\"hey()\" class=\"btn . . . .     하이퍼링크안에 이렇게 입력해주면 웹사이트에서 링크된 버튼을 누르면 작동된다 위에 입력한 안녕!!이라고     개발자도구 - console 에서 hey()를 입력해주면 작동되는걸 확인할 수 있다  - Finish -     div 열고닫고 줄정리 바로한다    display: block; 활용    class 중첩     Javascript 반복문 오타 주의    코드를 입력하면 직관적으로 결과물을 볼수있다는점 매력있고지금은 주어진 웹사이트를 보고 코드를 입력하며 같은 결과물을 만들어내지만 나중에 상상했던 아이디어를 결과물로 만들면 정말 재미있을거 같다앞으로 배울내용들이 기대된다",
             "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- CSS -  css란?&lt;body&gt;...&lt;/body&gt; 안에있는 것들을 꾸며준다 사용법&lt;head&gt;...&lt;/head&gt; 안에 &lt;style&gt;...&lt;/stlye&gt;로 공간을 만들어 작성한다&lt;body&gt;...&lt;/body&gt; 안에서 &lt;div class=\"mytitle\"&gt; 입력하고 가리킬때 .mytitle {...} 라고 입력해야한다그래서 뼈대를 만들때 div로 잘 묶어줘야 꾸며줄때 편하다ex) .mytitle {        color: red;        font-size: 40px;    }    .    .    &lt;body&gt;    &lt;h1&gt; class=\"mytitle\"&gt;로그인페이지&lt;/h1&gt;    .    .    이렇게 하면 화면에서 로그인페이지라는 문구가 색은 빨간색으로 폰트는 40px사이즈로 바뀐다    - words -         text-align: center;          text 중앙정렬        밑에 3개는 거의 붙어 다딘다.    background-image: url(...)   background에 이미지 넣기    background-size: cover;      이미지사이즈 백그라운드에 맞춤    background-position: center; 이미지 중앙부분으로       border-radius: 10px;         모서리          padding-top: 20px;           안쪽으로 여백    margin: 20px 0px 0px 100px;  바깥으로 위20 오른0 아래0 왼쪽30; (순서 위부터 시계방향!)        display: block;              margin을 오토로 했는데도 버튼이 움직이지 않을때!      font    https://fonts.google.com/?subset=korean     구글폰트들이 있고 복사해서 사용      bootstrap    https://getbootstrap.com/docs/4.0/components/alerts/    form, buttons.. 여러가지 만들어 놓은 코드들이 있다 복사해서 사용해보자* 클래스 중첩이란    &lt;button class=\"mybtn red-font\"&gt; 로그인하기&lt;/button&gt;    기존 mybtn 한칸띄우고 red-font 입력해주면 .red-font를 가르켜 꾸며줄수있다 참고하자!            - Javascript - Javascript란?     프래그래밍 언어 중 하나로, 브라우저가 알아들을 수 있는 언어     클라이언트가 서버에 요청하면, 서버가 클라이언트에게 HTML+CSS+Javascript를 준다     이미 만들어진 표준이기 때문에, 모든 브라우저는 기본적으로 Javascript를 알아듣게 설계되어있고, 모든 웹서버는 HTML+CSS+Javascript를 준다    사용하기     &lt;script&gt;...&lt;/script&gt; 안에 입력한다.    ex)     &lt;script&gt;            function hey() {               alert(\"안녕!!\")           }     &lt;/script&gt;     .     .     &lt;a onclick=\"hey()\" class=\"btn . . . .     하이퍼링크안에 이렇게 입력해주면 웹사이트에서 링크된 버튼을 누르면 작동된다 위에 입력한 안녕!!이라고     개발자도구 - console 에서 hey()를 입력해주면 작동되는걸 확인할 수 있다  - Finish -     div 열고닫고 줄정리 바로한다    display: block; 활용    class 중첩     Javascript 반복문 오타 주의    코드를 입력하면 직관적으로 결과물을 볼수있다는점 매력있고지금은 주어진 웹사이트를 보고 코드를 입력하며 같은 결과물을 만들어내지만 나중에 상상했던 아이디어를 결과물로 만들면 정말 재미있을거 같다앞으로 배울내용들이 기대된다</code></pre></div></div>",
-            "url": "hhttps://gcodaily.github.io//gcodaily/2022/05/20/01-wc",
+            "url": "/2022/05/20/01_WC.html",
             
             
             
@@ -103,11 +88,8 @@
             "date_published": "2022-05-20T00:00:00+00:00",
             "date_modified": "2022-05-20T00:00:00+00:00",
             
-                "author":  {
-                "name": "gesko",
-                "url": null,
-                "avatar": null
-                }
+                "author": 
+                ""
                 
             
         }
