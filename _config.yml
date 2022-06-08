@@ -1,34 +1,35 @@
-site: Gcodaily
-title: Gcodaily
-greetings: Gcodaily
+site: gcodaily
+title: gcodaily
+greetings: Hi 👋
 description: >-
- "How was your day today?"
+  just a minimalist, personal blog
 lang: en-US
-timezone:  Asia/seoul
-repo: https://github.com/Gcodaily/Gcodaily.github.io #p0wex/Gesko # site repo [optional]
-data-theme: "light" 
-discus-identifier: G # replace with your disqus shortname
+timezone:  asia/seoul
+repo: https://github.com/Gcodaily # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
+discus-identifier: powex # replace with your disqus shortname
 
 author:
-  name: "G"
-  bio: "How was your day today?"
+  name: gesko
+  bio: just a minimalist, personal blog
   userpicture: 
   username: # general username
-  github: "https://github.com/Gcodaily"
+  github: # github username
   twitter: # twitter username
-  email: "ygunoffice@gmail.com" # email adress
+  email: ygunoffice@gmail.com # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://Gcodaily.github.io"
-baseurl: /Gcodaily.github.io # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "hhttps://gcodaily.github.io/" # Domain Name of host. [username].github.io for github pages
+baseurl: "/gcodaily" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front
 permalink: pretty
 
 # local
 # url: "http://localhost:4000" # 
 # baseurl: "" # 
+
 
 markdown: kramdown
 kramdown:
