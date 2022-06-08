@@ -12,7 +12,7 @@
     
         {
             "id": "/2022/06/08/03_mongoDB.html",
-            "title": "mongoDB macOS 연결오류",
+            "title": "03_mongoDB macOS 연결오류",
             "summary": null,
             "content_text": "*Problem:pycharm에서 python 파일을 만든 후 코드를 입력하고 mongoDB와 연결하기위해 실행을 누르면 계속 애러가 뜬다.*Resolve:1. \"certifi\" 패키지를 설치한다.2. 골격에 \"import certifi\" 추가한다.3. mongoDB에서 받은 URL 뒤에다가 \",tlsCAFile=certifi.where()\" 추가한다.   --골격--from pymongo import MongoClientclient = MongoClient('여기에 URL 입력')--mongoDB에서 제공해준 URL--mongodb+srv://test:&lt;password&gt;@cluster0.xxehbb.mongodb.net/?retryWrites=true&amp;w=majority--완성--from pymongo import MongoClientimport certificlient = MongoClient('mongodb+srv://test:&lt;password&gt;@cluster0.7ehbb.mongodb.net/         Cluster0?retryWrites=true&amp;w=majority',tlsCAFile=certifi.where())- &lt;password&gt; 부호까지 다지워주고 URL받기전 등록했던 비밀번호를 입력한다- 대소문자 잘 구분해서 URL수정하자",
             "content_html": "<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>*Problem:pycharm에서 python 파일을 만든 후 코드를 입력하고 mongoDB와 연결하기위해 실행을 누르면 계속 애러가 뜬다.*Resolve:1. \"certifi\" 패키지를 설치한다.2. 골격에 \"import certifi\" 추가한다.3. mongoDB에서 받은 URL 뒤에다가 \",tlsCAFile=certifi.where()\" 추가한다.   --골격--from pymongo import MongoClientclient = MongoClient('여기에 URL 입력')--mongoDB에서 제공해준 URL--mongodb+srv://test:&lt;password&gt;@cluster0.xxehbb.mongodb.net/?retryWrites=true&amp;w=majority--완성--from pymongo import MongoClientimport certificlient = MongoClient('mongodb+srv://test:&lt;password&gt;@cluster0.7ehbb.mongodb.net/         Cluster0?retryWrites=true&amp;w=majority',tlsCAFile=certifi.where())- &lt;password&gt; 부호까지 다지워주고 URL받기전 등록했던 비밀번호를 입력한다- 대소문자 잘 구분해서 URL수정하자</code></pre></div></div>",
