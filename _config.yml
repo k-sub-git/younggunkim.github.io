@@ -1,6 +1,6 @@
 site: gcodaily
 title: gcodaily
-greetings: Hi 👋
+greetings: GCODAILY👋
 description: >-
   just a minimalist, personal blog
 lang: en-US
@@ -10,7 +10,7 @@ data-theme: dark # default theme "dark" | "light"
 discus-identifier: powex # replace with your disqus shortname
 
 author:
-  name: gesko
+  name:gcodaily
   bio: just a minimalist, personal blog
   userpicture: 
   username: # general username
