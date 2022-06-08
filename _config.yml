@@ -4,7 +4,7 @@
     just a personal blog
   googlewebfonts: Fira+Code:wght@400;500;700
   lang: en-US
-  timezone: Rome
+  timezone: seoul
   repo: https://github.com/p0wex/p0wex.github.io # site repo [optional]
   data-theme: dark # default theme "dark" | "light"
 
@@ -12,9 +12,9 @@
   name: p0wex
   bio: just a minimalist, personal blog
   username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: powex@pm.me
+  github: gcodaily # github username
+  twitter: gcodaily # twitter username
+  email: gcodaily@gmail.com
 
 # URL settings
 url: "gcodaily.github.io" #
