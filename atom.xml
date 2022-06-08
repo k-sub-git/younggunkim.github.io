@@ -4,13 +4,47 @@
  <title>gcodaily</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2022-06-08T11:19:37+00:00</updated>
+ <updated>2022-06-08T12:02:26+00:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>mongoDB macOS 연결오류</title>
+   <link href="/2022/06/08/03_mongoDB.html"/>
+   <updated>2022-06-08T00:00:00+00:00</updated>
+   <id>/2022/06/08/03_mongoDB</id>
+   <content type="html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Problem:
+pycharm에서 python 파일을 만든 후 코드를 입력하고 mongoDB와 연결하기위해 실행을 누르면 계속 애러가 뜬다.
+
+*Resolve:
+1. &quot;certifi&quot; 패키지를 설치한다.
+2. 골격에 &quot;import certifi&quot; 추가한다.
+3. mongoDB에서 받은 URL 뒤에다가 &quot;,tlsCAFile=certifi.where()&quot; 추가한다.
+
+   
+--골격--
+from pymongo import MongoClient
+client = MongoClient(&apos;여기에 URL 입력&apos;)
+
+--mongoDB에서 제공해준 URL--
+mongodb+srv://test:&amp;lt;password&amp;gt;@cluster0.xxehbb.mongodb.net/?retryWrites=true&amp;amp;w=majority
+
+--완성--
+from pymongo import MongoClient
+import certifi
+client = MongoClient(&apos;mongodb+srv://test:&amp;lt;password&amp;gt;@cluster0.7ehbb.mongodb.net/
+         Cluster0?retryWrites=true&amp;amp;w=majority&apos;,tlsCAFile=certifi.where())
+
+- &amp;lt;password&amp;gt; 부호까지 다지워주고 URL받기전 등록했던 비밀번호를 입력한다
+- 대소문자 잘 구분해서 URL수정하자
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>02_Daliy_javascript</title>
