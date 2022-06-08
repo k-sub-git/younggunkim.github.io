@@ -1,41 +1,32 @@
-site: gcodaily
-title: gcodaily
-greetings: GCODAILY👋
-description: >-
-  just a minimalist, personal blog
-lang: en-US
-timezone:  asia/seoul
-repo: https://github.com/Gcodaily # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+  site: gcodaily
+  title: gcodaily
+  description: >-
+    just a personal blog
+  googlewebfonts: Fira+Code:wght@400;500;700
+  lang: en-US
+  timezone: Rome
+  repo: https://github.com/p0wex/p0wex.github.io # site repo [optional]
+  data-theme: dark # default theme "dark" | "light"
 
-author:
-  name:gcodaily
+  author:
+  name: p0wex
   bio: just a minimalist, personal blog
-  userpicture: 
-  username: # general username
-  github: # github username
-  twitter: # twitter username
-  email: ygunoffice@gmail.com # email adress
-
-# Font Settings
-googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+  username: p0wex # general username
+  github: p0wex # github username
+  twitter: P0Wex # twitter username
+  email: powex@pm.me
 
 # URL settings
-url: "hhttps://gcodaily.github.io/" # Domain Name of host. [username].github.io for github pages
-baseurl: "/gcodaily" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front
-permalink: pretty
-
-# local
-# url: "http://localhost:4000" # 
-# baseurl: "" # 
+url: "gcodaily.github.io" #
+baseurl: # leave blank if not wishd
+permalink: "p0wex.github.io/"
+permalink: pretty 
 
 
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
@@ -48,7 +39,9 @@ exclude:
   
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: ["<!-- ", " -->", "<!---", "--->"]
+  ignore:
+    envs: all
 
 sass:
   sass_dir: _sass
@@ -89,5 +82,3 @@ defaults:
 relative_links:
   enabled:     true
   collections: false
-
-
