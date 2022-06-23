@@ -1,7 +1,6 @@
   site: gcodaily
   title: gcodaily
-  description: >-
-    just a personal blog
+  description:
   googlewebfonts: Fira+Code:wght@400;500;700
   lang: en-US
   timezone: seoul
