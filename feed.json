@@ -3,7 +3,7 @@
     "title": "gcodaily",
     "home_page_url": "/",
     "feed_url": "/feed.json",
-    "description": "just a personal blog",
+    "description": null,
     "icon": "/apple-touch-icon.png",
     "favicon": "/favicon.ico",
     "expired": false,
