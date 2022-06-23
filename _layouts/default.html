@@ -42,17 +42,17 @@ layout: compress
 
     let theme = localStorage.getItem('theme');
 
-    theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light' : 'light');
+    theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark' : 'dark');
 
     setTheme(theme);
 
     function modeSwitcher() {
       let currentMode = document.documentElement.getAttribute('data-theme');
 
-      if (currentMode === "light") {
-        setTheme('dark');
-      } else {
+      if (currentMode === "dark") {
         setTheme('light');
+      } else {
+        setTheme('dark');
       }
     }
   </script>
